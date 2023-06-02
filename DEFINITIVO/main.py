@@ -1,6 +1,8 @@
 import pygame, sys, random
 from pygame.locals import *
 
+pygame.init()
+pygame.font.init()
 ALTEZZA = 1000
 LARGHEZZA= 1850
 FINESTRA = (LARGHEZZA, ALTEZZA)
